@@ -104,7 +104,7 @@ If HRVQA is helpful for your research or you wish to refer the baseline results 
 @InProceedings{
     author    = {Kun Li, George Vosselman and Michael Ying Yang},
     title     = {HRVQA: A Visual Question Answering Benchmark for High-Resolution Aerial Images},
-    year      = {2022},
+    year      = {2023},
 }
 ```
 
