@@ -84,14 +84,14 @@ You can find the test result in:
 
 ### Models 
 ---
-Here we provide our pre-trained models in this [link](https://uavid.nl/).
+The pre-trained models are coming soon.
 
 
 ### Result 
 ---
 Following this steps you should be able to reproduce the results in the paper. The performance of the propopsed method on test split is reported as follows:
 
-|  Number   | Yes/No | Areas |  Size |  Locat. | Color | Shape | Sports | Trans. | Scene | OA | AA |
+|  Number   | Y/N | Areas |  Size |  Locat. | Color | Shape | Sports | Trans. | Scene | OA | AA |
 |  ----  | ----  | ----  |----  |----  |----  |----  |----  |----  |----  |----  |----  |
 | 66.50 | 93.32 | 97.11 | 93.72 | 74.82 | 45.36 | 96.67 | 77.03 | 88.87 | 77.30 | 81.71 | 81.07 | 
 
@@ -99,7 +99,7 @@ Following this steps you should be able to reproduce the results in the paper. T
 
 ### Citation
 ---
-if HRVQA is helpful for your research or you wish to refer the baseline results published here, we'd really appreciate it if you could cite this paper.
+If HRVQA is helpful for your research or you wish to refer the baseline results published here, we'd really appreciate it if you could cite this paper.
 ```
 @InProceedings{
     author    = {Kun Li, George Vosselman and Michael Ying Yang},
