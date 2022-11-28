@@ -25,7 +25,7 @@ We benchmark an aerial image visual question answering task with our proposed da
     $ pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
-&emsp;4. Install [SpaCy](https://spacy.io/) and initialize the [GloVe](https://github.com/explosion/spacy-models/releases/download/en_vectors_web_lg-2.1.0/en_vectors_web_lg-2.1.0.tar.gz) as follows
+&emsp;4. Install [SpaCy](https://spacy.io/) and initialize the [GloVe](https://github.com/explosion/spacy-models/releases/download/en_vectors_web_lg-2.1.0/en_vectors_web_lg-2.1.0.tar.gz) as follows:
 
 ```
     $ wget https://github.com/explosion/spacy-models/releases/download/en_vectors_web_lg-2.1.0/en_vectors_web_lg-2.1.0.tar.gz -O en_vectors_web_lg-2.1.0.tar.gz
@@ -89,11 +89,11 @@ Here we provide our pre-trained models in this [link](https://uavid.nl/).
 
 ### Result 
 ---
-Following this steps you should be able to reprocude the results in the paper. The performance of the propopsed method on test split is reported as follows:
+Following this steps you should be able to reproduce the results in the paper. The performance of the propopsed method on test split is reported as follows:
 
-|  Number   | Yes/No | Areas |  Size |  Location | Color | Shape | Sports | Transportation | Scene | OA | AA |
+|  Number   | Yes/No | Areas |  Size |  Locat. | Color | Shape | Sports | Trans. | Scene | OA | AA |
 |  ----  | ----  | ----  |----  |----  |----  |----  |----  |----  |----  |----  |----  |
-| 66.50| 93.32| 97.11| 93.72| 74.82| 45.36| 96.67| 77.03|88.87 | 77.30| 81.71 | 81.07| 
+| 66.50 | 93.32 | 97.11 | 93.72 | 74.82 | 45.36 | 96.67 | 77.03 | 88.87 | 77.30 | 81.71 | 81.07 | 
 
 ---
 
@@ -101,13 +101,10 @@ Following this steps you should be able to reprocude the results in the paper. T
 ---
 if HRVQA is helpful for your research or you wish to refer the baseline results published here, we'd really appreciate it if you could cite this paper.
 ```
-@InProceedings{Zhou_2021_ICCV,
-    author    = {Zhou, Yiyi and Ren, Tianhe and Zhu, Chaoyang and Sun, Xiaoshuai and Liu, Jianzhuang and Ding, Xinghao and Xu, Mingliang and Ji, Rongrong},
-    title     = {TRAR: Routing the Attention Spans in Transformer for Visual Question Answering},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2021},
-    pages     = {2074-2084}
+@InProceedings{
+    author    = {Kun Li, George Vosselman and Michael Ying Yang},
+    title     = {HRVQA: A Visual Question Answering Benchmark for High-Resolution Aerial Images},
+    year      = {2022},
 }
 ```
 
