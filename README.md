@@ -2,7 +2,7 @@
 Implementation for the paper "HRVQA: A Visual Question Answering Benchmark for High-Resolution Aerial Images". 
 ---
 
-We benchmark an aerial image visual question answering task with our proposed dataset HRVQA, and more details about this dataset could be found in our official website [HRVQA](https://uavid.nl/). The evaluation server and the benchmark table are held on [Codalab](https://uavid.nl/) platform. Welcome to submit your results!
+We benchmark an aerial image visual question answering task with our proposed dataset HRVQA, and more details about this dataset could be found in our official website [HRVQA](https://hrvqa.nl/). The evaluation server and the benchmark table are held on [Codalab](https://codalab.lisn.upsaclay.fr/) platform. Welcome to submit your results!
 
 
 
@@ -36,12 +36,12 @@ We benchmark an aerial image visual question answering task with our proposed da
 ### Dataset Download
 ---
 #### a. Visual Input Download
-The aerial images can be downloaded in our official website [HRVQA](https://uavid.nl/). To make it convenient, we also provide the grid visual features for training and inference stages. You can find the files in [hrvqa-visual-features](https://uavid.nl/): train, val, test.
+The aerial images can be downloaded in our official website [HRVQA](https://hrvqa.nl/). To make it convenient, we also provide the grid visual features for training and inference stages. You can find the files in [hrvqa-visual-features](https://hrvqa.nl/): train, val, test.
 
 #### b. Lingual Input Download
-The question-answer pairs you can download in this [HRVQA](https://uavid.nl/). Downloaded files contains in a folder named jsons: train_question, train_answer, val_question, val_answer, test_question.
+The question-answer pairs you can download in this [HRVQA](https://hrvqa.nl/). Downloaded files contains in a folder named jsons: train_question, train_answer, val_question, val_answer, test_question.
 
-More metadata information could be found in the [HRVQA](https://uavid.nl/).
+More metadata information could be found in the [HRVQA](https://hrvqa.nl/).
 
 
 ### Training
@@ -85,7 +85,7 @@ You can find the test result in:
 ### Models 
 ---
 The pre-trained models are coming soon.
-
+% hhhh
 
 ### Result 
 ---
