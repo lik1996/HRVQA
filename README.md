@@ -85,8 +85,6 @@ You can find the test result in:
 ### Models 
 ---
 The pre-trained models are coming soon.
-[GFTransformer-ED](https://drive.google.com/uc?export=download&id=1bkyJ6Ilz-wq92TDSV0yeeu8-n75r0tMS) means encoder-decoder architecture.
-[GFTransformer-S](https://drive.google.com/uc?export=download&id=1t6k3zBUNyq_bd6ujGw-PZvldSVvDG71W) means stacked architecture.
 <!-- 
 [GFTransformer-ED](https://drive.google.com/uc?export=download&id=1bkyJ6Ilz-wq92TDSV0yeeu8-n75r0tMS) means encoder-decoder architecture.
 [GFTransformer-S](https://drive.google.com/uc?export=download&id=1t6k3zBUNyq_bd6ujGw-PZvldSVvDG71W) means stacked architecture.
