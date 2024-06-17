@@ -2,7 +2,7 @@
 Implementation for the paper "HRVQA: A Visual Question Answering Benchmark for High-Resolution Aerial Images". 
 ---
 
-We benchmark an aerial image visual question answering task with our proposed dataset HRVQA, and more details about this dataset could be found in our official website [HRVQA](https://hrvqa.nl/). The evaluation server and the benchmark table are held on [Codalab](https://codalab.lisn.upsaclay.fr/) platform. Welcome to submit your results!
+We benchmark an aerial image visual question answering task with our proposed dataset HRVQA, and more details about this dataset can be found on our official website [HRVQA](https://hrvqa.nl/). The evaluation server and the benchmark table will be held on [Codalab](https://codalab.lisn.upsaclay.fr/) platform. Welcome to submit your results!
 
 
 
@@ -11,7 +11,7 @@ We benchmark an aerial image visual question answering task with our proposed da
 &emsp;1. [Cuda](https://developer.nvidia.com/zh-cn/cuda-toolkit) and [Cudnn](https://developer.nvidia.com/cudnn).
 
 
-&emsp;2. Conda enviroment:
+&emsp;2. Conda environment:
 
 ```
     $ conda create -n vqa python==3.8.10
@@ -36,12 +36,12 @@ We benchmark an aerial image visual question answering task with our proposed da
 ### Dataset Download
 ---
 #### a. Visual Input Download
-The aerial images can be downloaded in our official website [HRVQA](https://hrvqa.nl/). To make it convenient, we also provide the grid visual features for training and inference stages. You can find the files in [hrvqa-visual-features](https://hrvqa.nl/): train, val, test.
+The aerial images can be downloaded from our official website [HRVQA](https://hrvqa.nl/). To make it convenient, we also provide the grid visual features for the training and inference stages. You can find the files in [hrvqa-visual-features](https://hrvqa.nl/): train, val, test.
 
 #### b. Lingual Input Download
-The question-answer pairs you can download in this [HRVQA](https://hrvqa.nl/). Downloaded files contains in a folder named jsons: train_question, train_answer, val_question, val_answer, test_question.
+The question-answer pairs can be downloaded in this [HRVQA](https://hrvqa.nl/). Downloaded files are contained in a folder named jsons: train_question, train_answer, val_question, val_answer, test_question.
 
-More metadata information could be found in the [HRVQA](https://hrvqa.nl/).
+More metadata information can be found in the [HRVQA](https://hrvqa.nl/).
 
 
 ### Training
@@ -67,7 +67,7 @@ results/log/log_run_<VERSION>.txt
 ### Val and Test
 ---
 
-The following script will start valing with the default hyperparameters:
+The following script will start validation with the default hyperparameters:
 ```
 $ python run.py --RUN=val --CKPT_PATH=generated_CKPT_PATH --METHOD=oursv1 --VERSION='hrvqa_grid_glove'
 ```
@@ -92,7 +92,7 @@ The pre-trained models are coming soon.
 
 ### Result 
 ---
-Following this steps you should be able to reproduce the results in the paper. The performance of the propopsed method on test split is reported as follows:
+Following these steps, you should be able to reproduce the results in the paper. The performance of the propopsed method on test split is reported as follows:
 
 |  Number   | Y/N | Areas |  Size |  Locat. | Color | Shape | Sports | Trans. | Scene | OA | AA |
 |  ----  | ----  | ----  |----  |----  |----  |----  |----  |----  |----  |----  |----  |
@@ -102,13 +102,18 @@ Following this steps you should be able to reproduce the results in the paper. T
 
 ### Citation
 ---
-If HRVQA is helpful for your research or you wish to refer the baseline results published here, we'd really appreciate it if you could cite this paper.
+If HRVQA is helpful for your research or you wish to refer to the baseline results published here, we'd appreciate it if you could cite this paper.
 ```
-@InProceedings{
-    author    = {Kun Li, George Vosselman and Michael Ying Yang},
-    title     = {HRVQA: A Visual Question Answering Benchmark for High-Resolution Aerial Images},
-    year      = {2023},
+@article{LI202465,
+title = {HRVQA: A Visual Question Answering benchmark for high-resolution aerial images},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+volume = {214},
+pages = {65-81},
+year = {2024},
+issn = {0924-2716},
+doi = {https://doi.org/10.1016/j.isprsjprs.2024.06.002},
+author = {Kun Li and George Vosselman and Michael Ying Yang}
 }
 ```
 
-**Here, we thanks so much for these great works:  [mcan-vqa](https://github.com/MILVLG/mcan-vqa) and [TRAR-VQA](https://github.com/rentainhe/TRAR-VQA)** 
+Here, we thank so much for these great works:  [mcan-vqa](https://github.com/MILVLG/mcan-vqa) and [TRAR-VQA](https://github.com/rentainhe/TRAR-VQA)
