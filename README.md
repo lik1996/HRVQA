@@ -2,7 +2,7 @@
 Implementation for the paper "HRVQA: A Visual Question Answering Benchmark for High-Resolution Aerial Images". 
 ---
 
-We benchmark an aerial image visual question answering task with our proposed dataset HRVQA, and more details about this dataset can be found on our official website [HRVQA](https://hrvqa.nl/). The evaluation server and the benchmark table will be held on [Codalab](https://codalab.lisn.upsaclay.fr/) platform. Welcome to submit your results!
+We benchmark an aerial image visual question answering task with our proposed dataset HRVQA, and more details about this dataset can be found on our official website [HRVQA](https://hrvqa.nl/). The evaluation server and the benchmark table will be held on [Codabench]((https://www.codabench.org/competitions/7346/)) platform. Welcome to submit your results!
 
 
 
@@ -37,9 +37,11 @@ We benchmark an aerial image visual question answering task with our proposed da
 ---
 #### a. Visual Input Download
 The aerial images can be downloaded from our official website [HRVQA](https://hrvqa.nl/). To make it convenient, we also provide the grid visual features for the training and inference stages. You can find the files in [hrvqa-visual-features](https://hrvqa.nl/): train, val, test.
+As the download for images is quite large from our server, we also split the data into several sections with [Baidu drive: dyyd](https://pan.baidu.com/s/1_6CvwGqWGm180uapJIBmtg). We will also provide Google drive latter.
 
 #### b. Lingual Input Download
 The question-answer pairs can be downloaded in this [HRVQA](https://hrvqa.nl/). Downloaded files are contained in a folder named jsons: train_question, train_answer, val_question, val_answer, test_question.
+You can also download from [Baidu drive: dyyd](https://pan.baidu.com/s/1_6CvwGqWGm180uapJIBmtg).
 
 More metadata information can be found in the [HRVQA](https://hrvqa.nl/).
 
