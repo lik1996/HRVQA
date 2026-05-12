@@ -41,7 +41,7 @@ As the download for images is quite large from our server, we also split the dat
 
 #### b. Lingual Input Download
 The question-answer pairs can be downloaded in this [HRVQA](https://hrvqa.nl/). Downloaded files are contained in a folder named jsons: train_question, train_answer, val_question, val_answer, test_question.
-You can also download them from [Baidu drive: dyyd](https://pan.baidu.com/s/1_6CvwGqWGm180uapJIBmtg).
+You can also download them from [Baidu drive: dyyd](https://pan.baidu.com/s/1_6CvwGqWGm180uapJIBmtg). The test_answer.json is now provided at [Google Drive](https://drive.google.com/file/d/1qtY0ewzdW0HLuS8X3FooKekLMymKmlr7/view?usp=sharing).
 
 More metadata information can be found in the [HRVQA](https://hrvqa.nl/).
 
